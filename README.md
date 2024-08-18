@@ -1,6 +1,6 @@
 # Online Voting System
 
-This project is an implementation of an online voting system developed in C language. It was created as a part of our Computational Thinking project.
+This project is an implementation of an online voting system developed in C language. It was a mini project created as a part of our Computational Thinking project.
 
 ## Overview
 
@@ -12,8 +12,6 @@ The online voting system allows users to register, vote for candidates, and view
 
 - **Voting System:** Registered users can vote for their preferred candidates. Each vote is securely recorded and stored in files.
 
-- **Security:** The system ensures the security and integrity of the voting process by encrypting voter data and implementing secure file handling techniques.
-
 - **Efficient Searching:** Binary search algorithm is implemented to efficiently search for voter names in the file, ensuring quick retrieval of voter information.
 
 ## Implementation Details
@@ -23,10 +21,6 @@ The online voting system allows users to register, vote for candidates, and view
 - **Structures:** We utilized C structures to represent user information, including name, age, and address. These structures are stored in files for efficient data management.
 
 - **Binary Search Algorithm:** For searching voter names in the file, we implemented the binary search algorithm. This algorithm ensures fast retrieval of voter information with a time complexity of O(log n).
-
-### Encryption and Decryption
-
-- **Voting Sign Encoding:** The voting sign is encrypted into a transcript using a custom encoding scheme. This transcript can be securely decoded to another file for result verification.
 
 ## Time Complexity Analysis
 
